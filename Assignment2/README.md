@@ -1,1 +1,1 @@
-This is my week 2 assignment!
+This is my week 2 assignment! I had a hard time for a while because I didn't correctly call my style sheet but once I got that I was good. A little research and it all went smoothly. I am most proud of figuring out specific tags within my style sheet. I think I am doing pretty well! I need to do better about time management with the full time job I am currently working but that is a me issue. 
