@@ -1,0 +1,207 @@
+.edu-nsw-act-hand-pre {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+background-color: #D8BFD8;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    border: 1px solid black;
+    padding:35px;
+    text-align: center;
+    background-color: #FDF5E6;
+}
+
+h1 {
+padding: 35px;
+text-align: center;
+background-color: #FDF5E6;
+font-family: 'Edu NSW ACT Hand Pre', cursive;
+}
+
+h2, h3 {
+text-align: center;
+  text-shadow: 1px 1px 2px #aaa;
+  font-family: 'Edu NSW ACT Hand Pre', cursive;
+} 
+
+li {
+    list-style-type: none;
+    color: navy;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
+
+.section {
+    border: 1px solid black;
+    padding: 35px;
+    background-color: #FDF5E6;
+    margin: 20px 0;
+}
+
+.quote-box {
+    font-style: italic;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;  
+  margin-right: 20px;
+}
+
+.bottom-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.fullscreen-video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+form {
+    background-color: #f9f7f1;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 75%;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="checkbox"],
+select {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+button {
+  margin-top: 20px;
+  background-color: #5a3e36;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7a564f;
+}
+
+table {
+  width: 78%; 
+  margin: 0 auto; 
+  margin-bottom: 30px; 
+  background-color: #fdfdfd; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+th, td {
+  padding: 12px; /* adds space inside each cell */
+  border: 1px solid #ccc; /* gives all cells a light border */
+  text-align: left; /* aligns content to the left for easier reading */
+}
+
+th {
+  background-color: #f5f5f5; /* light gray background for contrast */
+  font-weight: bold; /* makes header text stand out */
+  color: #5a3e36; /* a warm brown color for an elegant touch */
+}
+
+
+ #gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#gallery img {
+  width: 30%;
+  height: auto;
+}
+#gallery img {
+  width: 30%;
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* smooth transition */
+  cursor: pointer; /* pointer cursor to show it’s interactive */
+}
+#gallery img:hover {
+  transform: scale(1.05);  /* scale up slightly */
+  opacity: 0.8;            /* slightly transparent */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow on hover */
+}
+
+
+
+
+@media (max-width: 600px) {
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+li {
+  display: block; /* Makes the list items stack vertically */
+  margin: 10px 0; /* Adds 10px space above and below the element, no space on the sides */
+}
+nav {
+  text-align: center;
+}
+header, .chapter, footer {
+  padding: 10px; /* Adds padding to header, .chapter, AND footer content */
+}
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+}
