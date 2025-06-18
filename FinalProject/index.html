@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
+    <title>The Title of the browser</title>
+    <link rel="stylesheet" href="style/style.css">
+   <!--icon-->
+    <link rel="icon" type="imgae/x-icon" href="images/favicon.ico">
+   <!--fonts-->
+    <!--sub-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="libre-baskerville-regular">FIONA DAVIA</h1>
+        <h1 class="league-spartan-italic" style="font-size: smaller; font-weight: lighter;">PHOTOGRAPHY - DESIGN - WRITING</h1>
+    </header>
+    <main>
+    <!--add this section. your core context goes here-->
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>Fiona Davia</p>
+        <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+    </body>
+</html>
