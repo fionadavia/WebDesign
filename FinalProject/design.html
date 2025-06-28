@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
-    <title>Fiona Davia - Photography</title>
-    <link rel="stylesheet" href="style/style.css">
-   <!--icon-->
-    <!-- Favicon for most browsers -->
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <!-- Apple Touch Icon (iPhone, iPad, etc.) -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <!-- Android Chrome Icons -->
-        <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
-        <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/android-chrome-512x512.png">
-    <!-- Fallback .ico file for older browsers -->
-        <link rel="shortcut icon" href="images/favicon/favicon.ico">
-    <!-- Web App Manifest (optional, but nice) -->
-        <link rel="manifest" href="images/favicon/site.webmanifest">
-
-   <!--fonts-->
-    <!--sub-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <title>Fiona Davia – Design Portfolio</title>
+  <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
+  <div class="hero-wrapper">
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
+    <div class="hero-banner"></div>
     <header>
-        <h1 class="libre-baskerville-regular">FIONA DAVIA</h1>
+        <h1 class="libre-baskerville-regular">DESIGN PORTFOLIO</h1>
         <h1 class="league-spartan-italic" style="font-size: smaller; font-weight: lighter;"><a href="gallery.html">PHOTOGRAPHY</a> - <a href="design.html">DESIGN</a> - <a href="writing.html">WRITING</a></h1>
     </header>
-    <main>
-    <!--add this section. your core context goes here-->
-    </main>
-    <footer>
-        <p>&copy; <span id="year"></span>Fiona Davia</p>
-        <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-        </script>
-    </footer>
-    </body>
+
+  <main>
+    <div class="section">
+      <h3>Montana Kaimin — Issue 22</h3>
+      <p>I designed the cover for this issue, which centered on Missoula’s DIY music scene. I wanted to create something visually chaotic and vibrant that matched the spirit of the story.</p>
+      <img src="images/kaimin-issue22-cover.png" alt="Montana Kaimin Issue 22 Cover Design by Fiona Davia" class="gallery-image">
+      <p><a href="pdfs/Montana-Kaimin-Issue-22.pdf" target="_blank">View full issue →</a></p>
+    </div>
+
+    <div class="section">
+      <h3>Montana Kaimin — Issue 24</h3>
+      <p>This issue explored Indigenous representation in Montana basketball. My layout aimed to balance powerful imagery with clean, readable type hierarchy.</p>
+      <img src="images/kaimin-issue24-feature.png" alt="Montana Kaimin Issue 24 Design Work" class="gallery-image">
+      <p><a href="pdfs/Montana-Kaimin-Issue-24.pdf" target="_blank">View full issue →</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Fiona Davia</p>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
 </html>
